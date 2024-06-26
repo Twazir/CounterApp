@@ -1,0 +1,35 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CounterApp</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="userlogin">
+    <div>
+    <div class="box">
+      <div>
+        <h1>Nr. of Guests</h1>
+      </div>
+
+      <div>
+        <h2 id="count-el">0</h2>
+      </div>
+      <div>
+        <!--create a Increment button with the id= "increment-btn"-->
+        <button id="increment-btn" onclick="increment()">Guests</button>
+
+        <button id="save-btn" onclick="save()"><strong>SAVE</strong></button>
+        
+      </div>
+
+        <div class="pagination">
+          <h3 id="saveEl" class="pagination">Previous Entries: </h2>
+          <button id="prev-btn">Previous</button>
+          <button id="next-btn">Next</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </div>
+  </body>
+</html>
